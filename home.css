@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to left, #74ebd5, #9face6 );
+  color: #333;
+  line-height: 1.6;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  background-color: #37536e;
+  color: #fff;
+  justify-content: space-between;
+  padding: 5px;
+  display: flex;
+  backdrop-filter: blur(45px);
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(20, 19, 19, 0.2);
+}
+
+.navbar h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar  ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar  ul li {
+  margin-left: 20px;
+  
+}
+
+.navbar ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+  color:#3f4c49;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.welcome {
+  
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.welcome h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  
+}
+
+
+.galery-preview {
+  background: linear-gradient(to left, #74ebd5, #9face6 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galery-row img {
+  width: 100%;
+  max-width: 210px;
+  height: auto;
+  border-radius: 100px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.galery-row img:hover {
+  transform: scale(1.05);
+}
+
+
+
+.blog-container {
+  margin: 15px 0;
+  
+  text-align: center;
+  list-style: none;
+  position: relative;
+  
+}
+.card {
+  
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  color: #000000;
+}
+
+.card img{
+  width: 100%;
+  height: 180px;
+  object-fit:cover;
+  background-size: cover;
+  gap: 20px;
+  position: relative;
+  color: #333;
+  line-height: 1.0;
+  border-radius: 30px;
+  justify-content: center;
+  
+  
+}
+
+
+.latest-articles a {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+  
+}
+
+.latest-articles a:hover {
+  color: #16a085;
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ecf0f100;
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+
